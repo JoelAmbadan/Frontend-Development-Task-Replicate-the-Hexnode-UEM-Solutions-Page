@@ -2,12 +2,12 @@
 This project is a frontend assessment task to replicate the layout, responsiveness, and interactivity of the Hexnode UEM Solutions page. It was built using React and styled with CSS modules for modular, maintainable styling. The project follows the standard Create React App setup.
 
 # Table of Contents
-Getting Started
-Prerequisites
-Installation
-Available Scripts
-Running the Project
-Features
+Getting Started,
+Prerequisites,
+Installation,
+Available Scripts,
+Running the Project,
+Features,
 Contact
 
 # Getting Started

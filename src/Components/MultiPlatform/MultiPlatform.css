@@ -1,0 +1,143 @@
+.hover-show{
+    display: none !important;
+    position: relative;
+    transition: all .5s !important;
+
+}
+
+.why-hex__grid0:hover .hover-show{
+    display: block !important;
+    transition: all .5s;
+
+}
+
+/*  */
+/* AccordionComponent.css */
+
+/* Animation for images to slide in from bottom */
+.image {
+    position: absolute;
+    top: 100%;
+    opacity: 1;
+    transition: top 0.5s ease, opacity 0.5s ease;
+    z-index: 100;
+  }
+  
+  .active-image {
+    top: 0;
+    opacity: 1;
+    position: relative;
+    z-index: 10;
+  }
+  
+  
+  /* Fade-in effect for content */
+  .animate-fade {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Top-to-bottom animation for h3 tags */
+  .animate-top-to-bottom {
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .active-heading {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .accordion-section.open{
+    position: relative;
+    border-radius: 15px;
+    border-width: 1px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+
+  }
+
+  .accordion-section{
+    position: relative;
+    border-radius: 15px;
+    border-width: 0px;
+    --tw-bg-opacity: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+
+  }
+
+  .accordion-section.open p{
+    padding-bottom: 20px;
+}
+
+
+.accordion-section h3.animate-top-to-bottom{
+  border-bottom: 1px solid #33333338;
+}
+
+.accordion-section.open h3.animate-top-to-bottom{
+  border-bottom: 0px solid #33333300;
+  padding-bottom: 0;
+}
+
+.sec-wrap-accordion .accordion-section:last-child h3.animate-top-to-bottom{
+  border-bottom: 0px solid #33333300;
+}
+
+.sec-wrap-accordion{
+  padding-left: 10px;
+}
+
+.last-open {
+  margin-left: 30px;
+  background-color: #fff0;
+}
+
+.last-open h3.animate-top-to-bottom {
+  border-bottom: 1px solid #33333300;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .flex-mob-acco {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .image {width: 75%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;}
+
+    .active-image {
+      width: 75%;
+      display: block;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+
+   .flex-center-new {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}

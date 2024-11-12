@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body, html{
+    font-family: __Mulish_aeca05, __Mulish_Fallback_aeca05 !important;
+}

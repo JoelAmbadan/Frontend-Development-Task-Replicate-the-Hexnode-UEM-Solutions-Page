@@ -1,0 +1,32 @@
+.hover-show{
+    display: none !important;
+    position: relative;
+    transition: all .5s !important;
+
+}
+
+.why-hex__grid0:hover .hover-show, .why-hex__grid1:hover .hover-show, .why-hex__grid2:hover .hover-show, .why-hex__grid3:hover .hover-show{
+    display: block !important;
+    transition: all .5s;
+
+}
+
+.hover-hight-element {
+  height: 310px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.hover-hight-element2 {
+  height: 280px;
+  transition: all .5s;
+  margin-bottom: 20px;
+}
+
+.hover-hight-element2:hover {
+  height: 310px;
+  transition: all .5s;
+}
